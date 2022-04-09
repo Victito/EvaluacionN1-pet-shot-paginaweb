@@ -1,0 +1,26 @@
+
+
+
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer__title{
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+}
+.footer__txt{
+    color: #555;
+}
+.footer__link{
+    text-decoration: none;
+    color: #555;
+    display: block;
+    padding: 5px 5px;
+}
+.footer__subscribe{
+    text-decoration: none;
+    color: #555;
+}

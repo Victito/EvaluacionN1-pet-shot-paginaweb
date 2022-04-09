@@ -1,0 +1,47 @@
+#TODO {
+    padding: 30px 30px 30px 30;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 6px;
+    text-align: center;
+}
+#Titulo>img {
+    border-style: solid;
+    border-radius: 6px;
+}
+
+#Titulo>h1 {
+    border-style: none;
+}
+
+#Limite {
+    background-color: #308032;
+    height: 60px;
+}
+
+button>h1 {
+    width: 46%;
+    font-size: 40%;
+    
+      
+}
+
+button>h2 {
+    width: 10px 10px 10px 10px;
+    font-size: 100%;
+    text-align: left;
+    
+    
+    
+    
+    
+    
+      
+}
+
+
+
+
+
+

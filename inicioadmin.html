@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Admin</title>
+    <link rel="stylesheet" href="diseño_admin.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="formulario">
+            <div class="inicio">
+               <h1>Iniciar Sesión </h1>
+               <p>Administrador</p>
+            </div>
+    
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="Email" required>
+                <input type="password" class="input-field" placeholder="Password"required> 
+                <input type="checkbox" class="checkbox"><span>Guardar contraseña</span> 
+               
+                <div id="adminsesion">
+                 <a href="paginaprincipaladmin.html"><h1>Acceder</h1></a> 
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        var x = document.getElementById("login");
+
+        function login(){
+            x.style.left = "50px";
+            y.style.left = "450px";
+            z.style.left = "0px"
+        }
+    </script>
+</body>
+</html>

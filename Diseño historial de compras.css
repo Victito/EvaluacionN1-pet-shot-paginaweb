@@ -1,0 +1,13 @@
+#TODO {
+    padding: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#Limite {
+    background-color: #308032;
+    height: 60px;
+}

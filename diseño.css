@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+/*Diseño del Encabezado*/
+.main-header{
+    padding: 10px;
+    margin: 0 auto;
+    background: url(cielo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main-header__title{
+    text-align: center;
+    font-size: 3em;
+    margin: 40px;
+    color: #08c211;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.main-header__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.main-header__container>a{
+    color: black;
+}
+.main-header__container>a:hover{
+    background-color:#308032;
+    transition: .5s;
+}
+.icon-phone{
+    color: red;
+}
+.main-header__btn{
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid black;
+    color: #454546;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    border-radius: 3px;
+}
+.main-header__btnIn{
+    display: block;
+    padding: 10px 15px;
+    color: #454546;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.main-header__input{
+    display: block;
+    padding: 5px;
+    border-radius: 6px;
+    width: 50%;
+}
+.main-header__input>a{
+    width: 20px;
+    color: #454546;
+}
+/*Diseño del Encabezado-Menu*/
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: #308032;
+    border: gray;
+    position: sticky;
+    top: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1001;
+}
+nav>ul{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav>ul>li{
+    display: inline-block;
+    line-height: 15px;
+    margin: 22px 10px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: #454546;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+li a:hover{
+    background-color: #4384D4;
+    transition: .5s;
+}
+/*----------------------*/
+.container-carrusel{
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    
+}
+/*Modificacion letra Carrucel*/
+.carousel-caption>h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25;
+    font-style: italic;
+    color: black;
+}
+.carousel-caption>p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20;
+    font-weight: bold;
+    color: black;
+}
+/*Titulo de Galeria (Productos)*/
+.main-title{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #454546;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+/* Ajustes Card(Galeria Productos)*/
+.card {
+    margin: 6%;
+    padding: 5px 0 20px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-group{
+    display: block;
+    justify-content: space-around;
+    padding: 10px 15px 30px 15px;
+    border-radius: 3px;
+}
+.card-title{
+    font-weight: bold;
+}
+
+/*Diseño de Footer*/
+
+.main-footer{
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer__title{
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+}
+.footer__txt{
+    color: #555;
+}
+.footer__link{
+    text-decoration: none;
+    color: #555;
+    display: block;
+    padding: 5px 5px;
+}
+.footer__subscribe{
+    text-decoration: none;
+    color: #555;
+}
+
+
